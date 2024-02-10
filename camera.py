@@ -42,8 +42,8 @@ class Camera:
         
     def update(self):
         self.move()
-        self.rotate()
-        self.update_camera_vectors()
+        # self.rotate()
+        # self.update_camera_vectors()
         self.m_view = self.get_view_matrix()
     
     def move(self):
