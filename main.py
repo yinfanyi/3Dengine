@@ -17,8 +17,8 @@ class GraphicsEngine:
         pg.display.set_mode(self.WIN_SIZE, flags=pg.OPENGL | pg.DOUBLEBUF)
         # pg.mouse.set_pos(self.WIN_SIZE[0] // 2, self.WIN_SIZE[1] // 2)
         # TODO:通过鼠标点击某个东西来移动视角
-        pg.event.set_grab(True)
-        pg.mouse.set_visible(False)
+        # pg.event.set_grab(True)
+        # pg.mouse.set_visible(False)
         
         self.ctx = mgl.create_context()
         # self.ctx.front_face = 'cw'
